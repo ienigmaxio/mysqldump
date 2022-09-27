@@ -5,7 +5,11 @@
         "alwaysStrict": true,
         "allowUnreachableCode": false,
         "allowUnusedLabels": false,
-        "lib": ["es2017", "esnext.asynciterable"],
+        "lib": [
+          "es2017",
+          "esnext.asynciterable",
+          "dom"
+        ],
         "module": "commonjs",
         "noEmitOnError": true,
         "noImplicitAny": true,
